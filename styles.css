@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#movie-title {
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button, input[type="range"] {
+    background: #444;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, input[type="range"]:hover {
+    background: #666;
+}
+
+input[type="range"] {
+    width: 100px;
+}
+
+.movie-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.movie-info h3 {
+    margin-top: 0;
+}
+
+.movie-info p {
+    margin: 0;
+}

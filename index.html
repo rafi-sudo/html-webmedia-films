@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/650de7f6ae66b.jpg" alt="Movie Banner" class="banner">
+        </header>
+        <main>
+            <div class="player">
+                <h2 id="movie-title">Catfish Killer 2022 </h2>
+                <video id="video" width="600" height="400" controls>
+                    <source src="videos/Catfish-Killer-2022-1674300108.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="controls">
+                    <button id="play-pause">Play</button>
+                    <input type="range" id="seek-bar" value="0">
+                    <button id="mute">Mute</button>
+                    <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+                    <button id="full-screen">Full-Screen</button>
+                </div>
+            </div>
+            <div class="movie-info">
+                <h3>Informasi Film | Rate: ⭐5.7/10 🍅-- </h3>
+                <p id="movie-description">Deskripsi film Anda akan tampil di sini. Berikan informasi menarik tentang film tersebut.</p>
+				<a href="http://192.168.2.101/movie-2" style="color: yellow; font-size: 40px; text-decoration: underline;">Terasa buffering? : Server Alternatif</a>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
